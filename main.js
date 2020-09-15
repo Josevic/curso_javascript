@@ -1,4 +1,10 @@
-const sumar = (a, b) => {
-  return a + b;
+const servicios = {
+  api: {},
+  mailer: "soy mailer",
+  apollo: {},
 };
-console.log(sumar(2, 5));
+const enviarCorreo = ({ mailer }) => {
+  console.log(mailer);
+};
+enviarCorreo(servicios);
+//Perimite consultar los objetos a través de una función
