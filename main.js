@@ -3,7 +3,8 @@ const servicios = {
   mailer: "soy mailer",
   apollo: {},
 };
-const enviarCorreo = ({ mailer }) => {
+const enviarCorreo = (srv) => {
+  const { mailer } = srv;
   console.log(mailer);
 };
 enviarCorreo(servicios);
