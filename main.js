@@ -8,3 +8,8 @@ multiplicar();
 console.log(multiplicar());
 multiplicacion = multiplicar();
 console.log(multiplicacion);
+
+function add() {
+  return name + " anotó " + num1 * num2;
+}
+console.log(add());
