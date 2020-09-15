@@ -1,15 +1,14 @@
 let num1 = 20;
 let num2 = 3;
 name = "Chelsey";
-function multiplicar() {
-  return num1 * num2;
-}
-multiplicar();
-console.log(multiplicar());
-multiplicacion = multiplicar();
-console.log(multiplicacion);
 
-function add() {
-  return name + " anotó " + num1 * num2;
+function contador() {
+  let cont = 0;
+  if ((name = "Chelsey")) {
+    cont = cont + 1;
+  } else {
+    cont = cont + 0;
+  }
+  return name + " anotó otro " + num1 * num2 + " y un: " + cont;
 }
-console.log(add());
+console.log(contador());
